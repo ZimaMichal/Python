@@ -1,6 +1,6 @@
 import re
 
-data_soubor = open('FinalText.txt', encoding="utf8")
+data_soubor = open('FinalText.txt',encoding="utf8")
 
 text = data_soubor.read()
 
