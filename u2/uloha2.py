@@ -30,5 +30,5 @@ for word, count in word_counts.items():
     elif count == max_freq:
         most_freq_word.append(word)
 # Výsledky
-print('Nejdelší slovo je slovo', longest_word,'.')
-print('Nečastější slovo je slovo',most_freq_word[0])
+print(f'Nejdelší slovo je slovo {longest_word}.')
+print(f'Nečastější slovo je slovo',most_freq_word[0])
