@@ -105,6 +105,7 @@ if city_in in obce_kody:
 
     # Remove the useless downloaded files 
     os.remove(input_file)
+    os.remove(output_file)
     os.remove(zip_file_name)
     os.remove(csv_file_name)
     os.remove(file_name)
