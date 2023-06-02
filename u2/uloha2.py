@@ -31,4 +31,4 @@ for word, count in word_counts.items():
         most_freq_word.append(word)
 # Výsledky
 print(f'Nejdelší slovo je slovo {longest_word}.')
-print(f'Nečastější slovo je slovo',most_freq_word[0])
+print(f'Nečastější slovo je slovo {", ".join(most_freq_word)}')
